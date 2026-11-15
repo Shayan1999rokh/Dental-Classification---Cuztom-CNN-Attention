@@ -594,16 +594,6 @@ Several details should be considered when interpreting the implementation or com
 
 For a rigorous reproduction study, verify the original dataset, annotation-to-class mapping, image-generation procedure, and all reported hyperparameters before comparing numerical results.
 
----
-
-## Limitations
-
-- The dataset and trained checkpoints are not distributed with this repository.
-- The implementation depends on the correctness and compatibility of the supplied image annotations.
-- Bounding-box masking is not equivalent to pixel-level semantic segmentation.
-- The current classifier does not include a healthy/normal class.
-- The outputs are research predictions, not clinical diagnoses.
-- Exact reproduction of published results cannot be claimed without validating the original data split, annotation mapping, training protocol, and evaluation procedure.
 
 ---
 
